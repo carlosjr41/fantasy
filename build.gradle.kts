@@ -9,7 +9,7 @@ plugins {
 }
 
 version = "0.1"
-group = "br.com.liga2"
+group = "br.com.liga2.fantasy"
 
 val kotlinVersion=project.properties.get("kotlinVersion")
 repositories {
@@ -33,7 +33,7 @@ dependencies {
 
 
 application {
-    mainClass.set("br.com.liga2.ApplicationKt")
+    mainClass.set("br.com.liga2.fantasy.ApplicationKt")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("17")

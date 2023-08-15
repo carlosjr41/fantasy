@@ -1,5 +1,5 @@
 applicationType: default
-defaultPackage: br.com.liga2
+defaultPackage: br.com.liga2.fantasy
 testFramework: junit
 sourceLanguage: kotlin
 buildTool: gradle_kotlin
